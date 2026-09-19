@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Rasmalai ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600&display=swap');
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:#09070b;color:#fff;font-family:Poppins,sans-serif;
+  overflow-x:hidden;
+}
+.bg{position:fixed;inset:0;z-index:-2;background:
+ radial-gradient(circle at 20% 20%,#6b183d 0,transparent 35%),
+ radial-gradient(circle at 80% 70%,#32145f 0,transparent 38%),#09070b}
+.noise{position:fixed;inset:0;z-index:-1;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E")}
+.container{width:min(1080px,92%);margin:auto}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 0}
+.badge{display:inline-block;border:1px solid #ffffff2c;padding:8px 16px;border-radius:99px;background:#ffffff0c;backdrop-filter:blur(10px);font-size:12px;letter-spacing:2px;text-transform:uppercase}
+h1{font-family:"DM Serif Display",serif;font-size:clamp(52px,11vw,110px);line-height:.92;margin:22px 0 15px}
+.gradient{background:linear-gradient(90deg,#fff,#ffb9d6,#fff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.subtitle{font-size:clamp(16px,2.5vw,21px);color:#ddd;max-width:700px;margin:auto;line-height:1.8}
+.btn{margin-top:30px;border:0;border-radius:999px;padding:15px 25px;background:#fff;color:#1b0b13;font-weight:600;font-size:15px;cursor:pointer;box-shadow:0 12px 35px #ff5e9c30;transition:.25s}
+.btn:hover{transform:translateY(-3px) scale(1.02)}
+.section{padding:90px 0}
+.section h2{font-family:"DM Serif Display",serif;font-size:48px;text-align:center;margin:0 0 15px}
+.section .lead{text-align:center;color:#bbb;max-width:650px;margin:0 auto 40px;line-height:1.8}
+.letter{max-width:800px;margin:auto;padding:34px;border:1px solid #ffffff18;background:#ffffff08;border-radius:28px;backdrop-filter:blur(12px);box-shadow:0 25px 80px #0008}
+.letter p{font-size:17px;line-height:2;color:#eee;margin:0 0 18px}
+.signature{text-align:right;color:#ffb4d0;font-family:"DM Serif Display",serif;font-size:27px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.gallery img{width:100%;height:320px;object-fit:cover;border-radius:22px;display:block;filter:saturate(.95);transition:.35s}
+.gallery img:hover{transform:scale(1.025);filter:saturate(1.1)}
+.gallery img:nth-child(1){grid-column:span 2}
+.gallery img:nth-child(4){height:430px}
+.gallery img:nth-child(5){height:430px}
+.cardrow{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{padding:28px;border-radius:24px;background:#ffffff08;border:1px solid #ffffff14;text-align:center}
+.icon{font-size:34px}.card h3{margin:14px 0 8px}.card p{color:#bbb;line-height:1.7;font-size:14px}
+.final{text-align:center;padding:100px 0 130px}
+.final h2{font-size:clamp(42px,8vw,75px)}
+.secret{max-width:700px;margin:25px auto 0;display:none;padding:25px;border-radius:22px;background:#ffffff0a;border:1px solid #ffffff18;line-height:1.9;color:#eee}
+.footer{text-align:center;color:#777;padding:25px;font-size:12px}
+.heart{position:fixed;bottom:-30px;font-size:18px;animation:float 7s linear forwards;pointer-events:none;z-index:5}
+@keyframes float{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+.fade{opacity:0;transform:translateY(25px);transition:1s}.show{opacity:1;transform:none}
+@media(max-width:720px){
+ .gallery{grid-template-columns:1fr 1fr}.gallery img,.gallery img:nth-child(4),.gallery img:nth-child(5){height:250px}.gallery img:nth-child(1){grid-column:span 2}
+ .cardrow{grid-template-columns:1fr}.section{padding:65px 0}.letter{padding:25px}
+}
+</style>
+</head>
+<body>
+<div class="bg"></div><div class="noise"></div>
+
+<section class="hero">
+  <div class="container fade">
+    <div class="badge">20 • 09 • 2026 &nbsp; | &nbsp; Wife Day</div>
+    <h1><span class="gradient">Meri Rasmalai</span> ❤️</h1>
+    <p class="subtitle">Aapka Rasgulla aapke liye ek chhota sa digital surprise lekar aaya hai… ✨</p>
+    <button class="btn" onclick="startSurprise()">🎁 Open Your Surprise</button>
+  </div>
+</section>
+
+<section class="section" id="letter">
+<div class="container fade">
+  <h2>Ek chhoti si baat…</h2>
+  <p class="lead">Jo shayad main har baar perfectly bol nahi paata, isliye aaj likh raha hoon. 💌</p>
+  <div class="letter">
+    <p>Jaan babuuuu, Happy Wife Day meri Rasmalai ❤️</p>
+    <p>Aap meri life ka woh special part ho jiske bina meri everyday wali life bhi thodi adhuri si lagti hai. Aapke saath bitaya hua har moment mere liye apni ek alag memory hai aur in photos ko dekhte hue mujhe bas yahi feel hota hai ki humne kitne saare cute moments saath mein collect kar liye hain. 🥹</p>
+    <p>Babyyyy, main chahta hoon ki chahe hum kitna bhi busy ho jaayein, humare beech woh care, hasi-mazaak, understanding aur pyaar hamesha bana rahe. Aap meri Rasmalai ho aur main hamesha aapka Rasgulla rahunga 😭❤️</p>
+    <p>Thank you meri jaan, meri babuu, meri Rasmalai… meri life mein hone ke liye. Aap mere liye bahut special ho aur rahoge. 🫶🏻</p>
+    <p>Happy Wife Day once again, jaan babuuuu. ❤️</p>
+    <div class="signature">— Aapka Rasgulla 🥹❤️</div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="container fade">
+  <h2>Humari Little Memories 📸</h2>
+  <p class="lead">Kuch pictures… aur bahut saari feelings. ❤️</p>
+  <div class="gallery">
+    <img src="memory1.jpeg" alt="Our memory">
+    <img src="memory2.jpeg" alt="Our memory">
+    <img src="memory3.jpeg" alt="Our memory">
+    <img src="memory4.jpeg" alt="Our memory">
+    <img src="memory5.jpeg" alt="Our memory">
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="container fade">
+  <h2>Aap mere liye…</h2>
+  <p class="lead">Teen simple si baatein jo mere dil ke bahut close hain.</p>
+  <div class="cardrow">
+    <div class="card"><div class="icon">❤️</div><h3>Special</h3><p>Aapki presence hi mere liye ek alag happiness lekar aati hai.</p></div>
+    <div class="card"><div class="icon">🫶🏻</div><h3>My Person</h3><p>Aap woh ho jiske saath main apni silly se silly baat bhi share karna chahta hoon.</p></div>
+    <div class="card"><div class="icon">✨</div><h3>Forever Memory</h3><p>Jo memories hum bana rahe hain, wahi meri favourite story ka part hain.</p></div>
+  </div>
+</div>
+</section>
+
+<section class="final">
+<div class="container fade">
+  <div class="badge">One Last Surprise</div>
+  <h2 class="gradient">I Love You, Meri Rasmalai ❤️</h2>
+  <p class="subtitle">Abhi surprise khatam nahi hua… 👀</p>
+  <button class="btn" onclick="reveal()">💌 Ek aur cheez dekho</button>
+  <div class="secret" id="secret">
+    Jaan babuuuu 🥹❤️<br>
+    Agar aap yahan tak aa gaye ho, toh ek baar smile zaroor karna… kyunki aapki smile mere liye bahut precious hai. 🫶🏻<br><br>
+    <b>Happy Wife Day meri Rasmalai 🌸</b><br>
+    Aapka Rasgulla hamesha aapke saath hai. ❤️
+  </div>
+</div>
+</section>
+
+<div class="footer">Made with ❤️ specially for my Rasmalai</div>
+
+<script>
+function startSurprise(){
+ document.getElementById('letter').scrollIntoView({behavior:'smooth'});
+ for(let i=0;i<22;i++) setTimeout(makeHeart,i*80);
+}
+function reveal(){
+ const s=document.getElementById('secret');s.style.display='block';
+ s.scrollIntoView({behavior:'smooth',block:'center'});
+ for(let i=0;i<35;i++) setTimeout(makeHeart,i*55);
+}
+function makeHeart(){
+ const h=document.createElement('div');h.className='heart';
+ h.textContent=['❤️','💗','💖','✨','🌸'][Math.floor(Math.random()*5)];
+ h.style.left=Math.random()*100+'vw';h.style.animationDuration=(5+Math.random()*4)+'s';
+ document.body.appendChild(h);setTimeout(()=>h.remove(),9000);
+}
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.fade').forEach(e=>obs.observe(e));
+</script>
+</body>
+</html>
